@@ -1,8 +1,8 @@
-﻿using FluentValidation.Domain;
+﻿using System.Threading.Tasks;
+using FluentValidation.Domain;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
 
-namespace FluentValidation.WebApi
+namespace FluentValidation.WebApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

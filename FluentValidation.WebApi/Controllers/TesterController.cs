@@ -1,10 +1,10 @@
-﻿using FluentValidation.Domain;
+﻿using System.Collections.Generic;
+using FluentValidation.Domain;
 using FluentValidation.Results;
 using FluentValidation.WebApi.CustomValidations;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 
-namespace FluentValidation.WebApi
+namespace FluentValidation.WebApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
